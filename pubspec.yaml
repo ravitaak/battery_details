@@ -1,6 +1,6 @@
 name: battery_details
 description: A fully battery details plugin copy of battery_info plugin for giving temp in double.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/ravitaak/battery_details.git
 
 environment:
