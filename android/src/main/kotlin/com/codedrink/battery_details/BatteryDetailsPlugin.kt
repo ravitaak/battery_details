@@ -33,10 +33,8 @@ public class BatteryInfoPlugin : FlutterPlugin, MethodCallHandler, StreamHandler
 
     private fun onAttachedToEngine(applicationContext: Context, messenger: BinaryMessenger) {
         this.applicationContext = applicationContext
-        channel = MethodChannel(messenger, "com.codedrink.battery_details
-/channel")
-        streamChannel = EventChannel(messenger, "com.codedrink.battery_details
-/stream")
+        channel = MethodChannel(messenger, "com.codedrink.battery_details/channel")
+        streamChannel = EventChannel(messenger, "com.codedrink.battery_details/stream")
         channel?.setMethodCallHandler(this)
         streamChannel?.setStreamHandler(this)
         filter = IntentFilter(Intent.ACTION_BATTERY_CHANGED)

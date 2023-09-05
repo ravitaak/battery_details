@@ -3,8 +3,8 @@ import 'package:battery_details/model/android_battery_info.dart';
 import 'package:flutter/services.dart';
 
 class BatteryDetails {
-  static const MethodChannel methodChannel = MethodChannel('com.igrik12.battery_info/channel');
-  static const EventChannel streamChannel = EventChannel("com.igrik12.battery_info/stream");
+  static const MethodChannel methodChannel = MethodChannel('com.codedrink.battery_details/channel');
+  static const EventChannel streamChannel = EventChannel("com.codedrink.battery_details/stream");
 
   /// Returns the battery info as a single API call
   Future<AndroidBatteryInfo?> get androidBatteryInfo async {
