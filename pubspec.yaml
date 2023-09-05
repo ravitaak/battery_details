@@ -1,7 +1,7 @@
 name: battery_details
 description: A new Flutter plugin project.
 version: 1.0.1
-homepage:
+homepage: https://github.com/ravitaak/battery_details.git
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
