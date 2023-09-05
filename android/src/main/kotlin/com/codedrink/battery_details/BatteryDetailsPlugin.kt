@@ -19,7 +19,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
 /** BatteryInfoPlugin */
-public class BatteryInfoPlugin : FlutterPlugin, MethodCallHandler, StreamHandler {
+public class BatteryDetailsPlugin : FlutterPlugin, MethodCallHandler, StreamHandler {
     private var applicationContext: Context? = null
     private var channel: MethodChannel? = null
     private var streamChannel: EventChannel? = null
